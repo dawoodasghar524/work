@@ -1,0 +1,810 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    width: 100%;
+}
+.welcome{
+    width: 100%;
+    height: 10vh;
+    background-color: #F8F9FA;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #E9E9E9;
+}
+.welcome h4{
+    color: black;
+    margin: 1.5%;
+    font-size: 14px;
+}
+.contact{
+    width: 30%;
+    height: 100%;
+    padding: 20px;
+}
+.contact li{
+    list-style: none;
+    font-size: smaller;
+    float: left;
+    padding-left: 20px;
+    margin-left: 5%;
+}
+.contact a{
+    text-decoration: none;
+    color: black;
+    /* font-weight: 400 !important; */
+}
+.logo{
+    width: 100%;
+    height: 17vh;
+    /* background-color: black; */
+    float: left;
+}
+.mainlogo{
+    /* background-color: lightblue; */
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.mainlogo img{
+    width: 60%;
+    padding:35px 0px 10px 22px;
+}
+.searchbar{
+    /* background-color: lightcoral; */
+    width: 50%;
+    height: 100%;
+    float: left;
+    /* border-bottom: 1px solid red; */
+}
+.category {
+    width: 100%;
+    height: 50%;
+    /* background-color: lightgray; */
+    margin-top: 3%;
+    border: 1px solid red;
+}
+.category button{
+    float: left
+}
+.input input{
+    padding: 2px;
+    margin-top: 1%;
+
+    
+}
+.input i{
+    float: right;
+    margin-top: 2%;
+    color: #6C757D;
+    margin-right: 1%;
+}
+.icons{
+    width:30%;
+    float: left;
+    /* background-color: lightsteelblue; */
+        height: 100%;
+        display: flex;
+}
+.hdg{
+    float: left;
+    width: 50%;
+    margin-top: 5%;
+    /* margin-left: 10%; */
+    
+}
+.number{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    /* padding: 10px 0px 0px 10px; */
+    float: left;
+}
+
+#io{
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.link a{
+    text-decoration: none;
+    color: black;
+}
+.link a:hover{color: black;
+}
+.link p{
+    height: 6px;
+}
+.link{
+    /* background-color: sandybrown; */
+    float: left;
+    height: 100%;
+    margin-top: 4%;
+    margin-left: 5%;
+    /* width: 80%; */
+}
+
+.blank{
+    width: 1%;
+    height: 40%;
+    background-color:#edeeef;
+    float: left;
+    /* border-radius: 30%; */
+    margin-top: 9%;
+    margin-left: 5%;
+}
+.cart ul{
+    display: flex;
+    margin-top: 20%;
+}
+.cart ul li{
+    list-style: none;
+    text-decoration: none;
+    margin-left: 10%;
+}
+#cart{
+    font-size: 30px;
+    padding-left: 14px;
+}
+#card {
+    font-size: 30px;
+}
+.jfu{
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+}
+.hello{
+    width: 100%;
+    background-color: #161616;
+    float: left;
+}
+.icsa a{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+
+}
+.nike{
+    z-index: -1;
+    margin-top: 2%;
+    float: left;
+}
+.main{
+    width: 25%;
+    height: 45vh;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 15%;
+}
+.text{
+    width: 100%;
+    height: 70%;
+    padding: 60px 0px 50px 0px;
+}
+.button2{
+    width: 100%;
+    height: 30%;
+}
+.button2 button{
+    padding: 10px 30px 10px 40px;
+    display: flex;
+    /* margin-left: %; */
+    display: block;
+    margin-top: 30%;
+    position: absolute;
+    border: 1px solid #6C757D;
+    /* background-color: blue; */
+}
+
+.button2 button:hover{
+    background-color: #EA3A3A;
+    color: white;
+    transition: all 0.3s linear;
+    border: 1px solid #EA3A3A;
+}
+
+.shoes{
+    width: 100%;
+    height: 17vh;
+    display: flex;
+    justify-content: center;
+    margin-top: -4%;
+}
+
+.p-1{
+    width: 100%;
+    height: 100%;
+    /* background-color: #161616; */
+    display: flex;
+    z-index: 1;
+    position: relative;
+    transition: all 0.2s linear;
+}
+.p-1:hover{
+    transform: scale(0.95);
+    transition: all 0.3s linear;
+}
+.back{
+    width: 100%;
+    height: 13vh;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+}
+.support{
+    width: 23%;
+    height: 100%;
+    background-color: #F8F9FA;
+    display: flex;
+    border: 2px solid #e6e8ea;
+}
+.money{
+    width: 30%;
+    height: 100%;
+}
+.any{
+    width: 70%;
+    height: 100%;
+}
+.review{
+    width: 100%;
+    height: 170vh;
+    /* background-color: lightblue; */
+    float: left;
+    margin-top: 3%;
+}
+.offer h4{
+    margin-left: 4%;
+}
+.btc{
+    width: 100%;
+    height: 80vh;
+    /* background-color: #EA3A3A; */
+    border: 10px solid white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.btc2{
+    width: 48%;
+    height: 80vh;
+    background-color: #F8F9FA;
+    border: 2px solid #EA3A3A;
+    display: flex;
+    /* border-left: 5px solid #EA3A3A;
+    border-top: 5px solid #EA3A3A;
+    border-bottom: 5px solid #EA3A3A;
+    border-right: 5px solid #EA3A3A; */
+}
+.btc3{
+    width: 50%;
+    height: 100%;
+}
+ .refund{
+    width: 100%;
+    height: 75%;
+    /* background-color: lightblue; */
+}
+.timer{
+    width: 100%;
+    height: 25%;
+    background-color:#EA3A3A ;
+}
+.clock {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 7px;
+    padding: 20px;
+}
+.btc4 {
+    width: 50%;
+    height: 100%;
+    /* background-color: #6C757D; */
+}
+.rs{
+    width: 100%;
+    height: 75%;
+    /* background-color: lawngreen; */
+}
+.buy{
+    width: 100%;
+    height: 25%;
+} 
+.is{
+    padding: 40px;
+}
+.hy button{
+    padding: 10px;
+    border: none;
+    border: 1px solid black;
+    background-color: #F8F9FA;
+    margin-right: 5%;
+}
+.hy{
+    padding: 50px;
+    justify-content: space-between;
+}
+.all{
+    position: relative;
+    margin-top: 40%;
+    margin-left: 45%;
+    float: left;
+}
+.all button{
+    padding: 7px;
+    background-color: #F8F9FA;
+    border: 1px solid black;
+}
+.selling{
+    width: 100%;
+    height: 100vh;
+    background-color: #eaeced;
+    float: left;
+    margin-top: 7%;
+    padding: 30px;
+}
+.view{
+    width: 100%;
+    height: 60vh;
+    /* background-color: red; */
+    display: flex;
+    /* justify-content: space-between; */
+}
+.product{
+    width: 20%;
+    height: 60vh;
+    background-color: #FFFFFF;
+    border-radius: 5%;
+    margin-left: 4%;
+}
+.perc{
+    width: 100%;
+    height: 70%;
+    /* background-color: #6C757D; */
+    position: relative;
+}
+.perc:hover>.opa{
+    display: block;
+    transition: all 0.5s linear;
+}
+.star{
+    width: 100%;
+    height: 30%;
+    /* background-color: aquamarine; */
+    padding:20px ;
+    border-radius: 20% 20% 0% 0%;
+}
+.opa{
+    width: 100%;
+    height: 20%;
+    display: none;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    transition: all 1s linear;
+
+}
+
+.hj{
+    text-decoration: line-through;
+    color: #6C757D;
+}
+.see{
+    margin-top: 35%;
+    margin-left: -27%;
+}
+.see button{
+    padding: 7px;
+        background-color: #F8F9FA;
+        border: 1px solid black;
+}
+.details{
+    width: 100%;
+    height: 52vh;
+    background-color: #161616;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+}
+.my{
+    width: 30%;
+    height: 50vh;
+    /* background-color: rebeccapurple; */
+}
+.near{
+    width: 100%;
+    height: 80%;
+    /* background-color: #6C757D; */
+    padding: 30px;
+}
+.help{
+    width: 100%;
+    height: 20%;
+    /* background-color: lemonchiffon; */
+    display: flex;
+}
+.lo{
+    width: 30%;
+    height: 100%;
+    color: #EA3A3A;
+    /* background-color: red; */
+    padding: 20px;
+}
+.lo i{
+    font-size: 20px;
+
+}
+.need{
+    width: 70%;
+    height: 100%;
+    /* background-color: lightblue; */
+
+}
+.need a{
+    text-decoration: none;
+    color: white;
+}
+.acc{
+    width: 100%;
+    height: 20%;
+    /* background-color: white; */
+}
+.sc{
+    width: 100%;
+    height: 80%;
+    /* background-color: chocolate; */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.sc a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s linear;
+}
+.sc a:hover{
+    color: white;
+    margin-left: 1%;
+    transition: all 0.2s linear ;
+}
+
+/* ////////////////////////////////////MEDIA///////////////////////////////////////// */
+
+
+@media screen AND (max-width:600px) {
+    .welcome {
+            width: 100%;
+            height: 5vh;
+            background-color: #F8F9FA;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #E9E9E9;
+        }
+    
+        .welcome h4 {
+            color: black;
+            font-size: 10px;
+            font-weight: 600;
+            /* padding: 5px; */
+        }
+    
+        .contact {
+            width: 70%;
+            height: 100%;
+            display: flex;
+            padding: 0;
+        }
+    
+        .contact li {
+            list-style: none;
+            font-size: smaller;
+            float: left;
+            padding-left: 5px;
+            margin-left: 0%;
+            /* background-color: red; */
+        }
+    
+        .contact a {
+            text-decoration: none;
+            color: black;
+            padding: 0px;
+            /* font-weight: 400 !important; */
+        }
+        
+
+        /* ///////////////////////////////////////////// */
+        .logo{
+    width: 100%;
+    height: 12vh;
+    /* background-color: black; */
+    float: left;
+}
+.mainlogo{
+    /* background-color: lightblue; */
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.mainlogo img{
+    width: 100%;
+    padding:40px 0px 0px 0px;
+}
+.searchbar{
+    /* background-color: lightcoral; */
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+    border-bottom: 1px double red;
+}
+.category {
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: lightgray; */
+    /* margin-top: -10%; */
+    /* border: 1px solid red; */
+}
+.category button{
+    float: left
+}
+.input input{
+    padding: 4x;
+    /* padding-right: -10px; */
+    margin-top: 0%;
+
+    
+}
+.input i{
+    float: right;
+    margin-top: 0%;
+    color: #6C757D;
+    margin-right: 1%;
+}
+.icons{
+    width:40%;
+    float: left;
+    /* background-color: lightsteelblue; */
+        height: 100%;
+        display: flex;
+}
+.hdg{
+    float: left;
+    width: 30%;
+    margin-top: 0%;
+    /* margin-left: 10%; */
+    font-size: 10px;
+    display: flex;
+    
+}
+.number{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    padding: 0;
+    float: left;
+}
+
+#io{
+    font-size: 20px;
+    padding-left: 8px;
+    padding-top: 2px;
+}
+.link a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    display: none;
+}
+.link a:hover{color: black;
+}
+.link p{
+    height: 6px;
+    display: none;
+}
+.link{
+    /* background-color: sandybrown; */
+    float: left;
+    height: 50%;
+    margin-top: 0%;
+    margin-left: 10%;
+    /* width: 80%; */
+}
+
+.blank{
+    width: 0%;
+    height: 0%;
+    background-color: white;
+    float: none;
+    /* border-radius: 30%; */
+    margin-top: 0%;
+    margin-left: 0%;
+}
+.cart ul{
+    display: flex;
+    margin: 0%;
+    margin-left: 0px;
+    padding: 5px;
+}
+.cart ul li{
+    list-style: none;
+    text-decoration: none;
+    margin-left: 0%;
+}
+#cart{
+    font-size: 15px;
+    padding-left: 10px 10px 10px 40px;
+}
+#card {
+    font-size: 15px;
+    padding-left: 10px 10px 10px 40px;
+}
+.jfu{
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+    font-size: small;
+    padding-left: 5px;
+}
+/* //////////////////////////////////////////////////////////// */
+.nike {
+    z-index: -1;
+    margin-top: 2%;
+    float: left;
+}
+
+.main {
+    width: 60%;
+    height: 20vh;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+.text {
+    width: 100%;
+    height: 40%;
+    padding: 0;
+}
+
+.button2 {
+    width: 100%;
+    height: 30%;
+}
+
+.button2 button {
+    padding: 10px;
+    display: flex;
+    /* margin-left: %; */
+    display: block;
+    margin-top: 30%;
+    position: absolute;
+    border: 1px solid #6C757D;
+    /* background-color: blue; */
+}
+
+.button2 button:hover {
+    background-color: #EA3A3A;
+    color: white;
+    transition: all 0.3s linear;
+    border: 1px solid #EA3A3A;
+}
+
+.shoes {
+    width: 100%;
+    height: 17vh;
+    display: flex;
+    justify-content: center;
+    margin-top: -5%;
+}
+.p-1 {
+    width: 100%;
+    height: 100%;
+    /* background-color: #161616; */
+    display: flex;
+    z-index: 1;
+    position: relative;
+    transition: all 0.2s linear;
+}
+
+.p-1:hover {
+    transform: scale(0.95);
+    transition: all 0.3s linear;
+}
+.back {
+    width: 100%;
+    height: 19vh;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.support {
+    width: 24%;
+    height: 100%;
+    background-color: #F8F9FA;
+    display: flex;
+    border: 2px solid #e6e8ea;
+}
+
+.money {
+    width: 30%;
+    height: 100%;
+    padding: 50px 0px 0px 0px;
+}
+.money img{
+    width: 100%;
+    background: red;
+}
+
+.any {
+    overflow: hidden;
+    width: 70%;
+    height: 100%;
+    padding: 0;
+}
+
+.review {
+    width: 100%;
+    height: 170vh;
+    /* background-color: lightblue; */
+    float: left;
+    margin-top: 3%;
+}
+.btc {
+    width: 100%;
+    height: 70vh;
+    /* background-color: #EA3A3A; */
+    border: 10px solid white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.btc2 {
+    width: 48%;
+    height: 80vh;
+    background-color: #F8F9FA;
+    border: 2px solid #EA3A3A;
+    display: flex;
+    /* border-left: 5px solid #EA3A3A;
+    border-top: 5px solid #EA3A3A;
+    border-bottom: 5px solid #EA3A3A;
+    border-right: 5px solid #EA3A3A; */
+}
+
+.btc3 {
+    width: 50%;
+    height: 100%;
+}
+
+.refund {
+    width: 100%;
+    height: 75%;
+    /* background-color: lightblue; */
+}
+
+.timer {
+    width: 100%;
+    height: 25%;
+    background-color: #EA3A3A;
+}
+
+.clock {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 7px;
+    padding: 20px;
+}
+
+.btc4 {
+    width: 50%;
+    height: 100%;
+    /* background-color: #6C757D; */
+}
+}
